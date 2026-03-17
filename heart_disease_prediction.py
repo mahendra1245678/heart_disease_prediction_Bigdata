@@ -12,6 +12,8 @@ import re,joblib
 global window
 from sklearn.model_selection import train_test_split
 
+
+
 l1 = ['SEQN', 'Gender', 'Age', 'Annual-Family-Income', 'Ratio-Family-Income-Poverty', 'X60-sec-pulse', 'Systolic', 'Diastolic', 'Weight', 'Height', 'Body-Mass-Index', 'White-Blood-Cells', 'Lymphocyte', 'Monocyte', 'Eosinophils', 'Basophils', 'Red-Blood-Cells', 'Hemoglobin', 'Mean-Cell-Vol', 'Mean-Cell-Hgb-Conc.', 'Mean-cell-Hemoglobin', 'Platelet-count', 'Mean-Platelet-Vol', 'Segmented-Neutrophils', 'Hematocrit', 'Red-Cell-Distribution-Width', 'Albumin', 'ALP', 'AST', 'ALT', 'Cholesterol', 'Creatinine', 'Glucose', 'GGT', 'Iron', 'LDH', 'Phosphorus', 'Bilirubin', 'Protein', 'Uric.Acid', 'Triglycerides', 'Total-Cholesterol', 'HDL', 'Glycohemoglobin', 'Vigorous-work', 'Moderate-work', 'Health-Insurance', 'Diabetes', 'Blood-Rel-Diabetes', 'Blood-Rel-Stroke']
 disease = ["no","yes"]
 tr=pd.read_csv("./CardiacPrediction.csv")
@@ -240,3 +242,8 @@ def heart():
     window.mainloop()
     
 heart()
+
+
+
+
+# sample
